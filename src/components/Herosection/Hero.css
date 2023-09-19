@@ -1,0 +1,20 @@
+/* Custom CSS for equal height and width and positioning */
+.left,
+.right {
+  min-height: auto; /* Make both divs at least 100% of the viewport height */
+  padding: 20px; /* Add padding for content spacing */
+}
+
+
+
+/* To ensure the image takes 100% width of its container */
+.left img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description{
+    font-size: 23px;
+
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0;margin: 0;
+}
+
+.hr-break{
+    width: 40px;
+    height: 5px;
+}
+
+.projects{
+    background-color:  
+    #f8f9fa;
+}
+
+.project-1,
+.project-2{
+    /* width: 1v; */
+    min-height: auto;
+    padding: 20px 10vw 20px 10vw;
+    /* background-color: red;    */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }

@@ -1,0 +1,19 @@
+
+*{
+    padding: 0;margin: 0;
+}
+
+.its-hr{
+    width: 40px;
+    height: 5px;
+}
+
+.skill-div{
+    visibility: visible;
+    animation-name: bounceIn ;
+}
+
+.skill-image{
+    height: 100px;
+    width: 100px;
+}

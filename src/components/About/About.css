@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#about{
+    background-color: 
+    #e1fafa;
+}
+
+.custom-shadow {
+    box-shadow: 5px 5px 10px rgba(0, 128, 0, 0.5);
+  }
+
+.logo-college{
+    height: 30px;
+    width: 30px;
+}
