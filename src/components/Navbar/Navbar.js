@@ -13,9 +13,10 @@ function Navbar() {
   return (
 
       <div>
-           <div className="Navbar">
+           <div className="Navbar d-flex">
+           <div><img className="gif" src={matter} alt="gif"></img></div>
               <nav className="navbar d-flex ">
-                <div><img className="gif" src={matter} alt="gif"></img></div>
+                
                 <div className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
                 
                   <a href="#Home">Home</a>

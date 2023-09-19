@@ -12,7 +12,7 @@ const Contact = () => {
             <div className='col-sm-6'>
                 <div className='bg-light box10 mb-5 rounded-4 custom-shadow'>
                     <h2 className="text-center pt-4">Social Profiles</h2>
-                    <ul className='text-center pb-4'>
+                    <ul className='text-center pb-4 Icons'>
                        
                         <li className="d-inline-block p-sm-3 "><a href="https://www.linkedin.com/in/jenigorlanaresh/"><i className="fa-brands fa-linkedin-in fa-3x i-in text-primary"></i></a></li>
                         <li className="d-inline-block p-sm-3"><a href="https://github.com/JENIGORLANARESH"><i className="fa-brands fa-github fa-3x bg-light text-secondary"></i></a></li>

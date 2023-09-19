@@ -8,7 +8,7 @@ function Projects(){
             <div id="Projects" className="projects">
                 <div className="row justify-content-center d-flex">
                 <p className="text-center text-success mt-5">Some Samples From My Recent Project</p>
-                <h1 className="text-center">MY Portfolio</h1>
+                <h1 className="text-center">MY Projects</h1>
                 <hr className="bg-success hr-break" ></hr>
                 <p className="text-center mb-sm-5">Here are few of my projects.</p>
 

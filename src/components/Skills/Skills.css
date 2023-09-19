@@ -17,3 +17,11 @@
     height: 100px;
     width: 100px;
 }
+
+@media (max-width: 767px) {
+    .skill-image {
+      height: 60px;
+      width: 60px;
+    }
+  }
+

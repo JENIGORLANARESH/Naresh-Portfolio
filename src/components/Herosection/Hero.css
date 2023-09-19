@@ -18,3 +18,11 @@
     font-size: 23px;
 
 }
+
+@media (max-width: 767px) {
+    .left img{
+      margin: auto;
+      height: auto;
+      width: 70vw;
+    }
+}
