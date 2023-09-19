@@ -10,15 +10,12 @@
 }
 
 .Navbar{
-    /* float: right; */
-    margin-left: 20%;
-    /* margin-top: 10px; */
+    margin-left: 17%;
 }
 
 .navbar {
     display: flex;
     width: auto;
-    /* background-color: rgb(169, 249, 176); */
     color: white;
     display: flex;
     justify-content: center; 
@@ -32,6 +29,10 @@
     color: rgba(0, 0, 0, 0.55);
     text-decoration: none;
     margin: 0 30px;
+}
+.nav-options:hover{
+    color: green;    
+    font-weight: 700;
 }
 
 

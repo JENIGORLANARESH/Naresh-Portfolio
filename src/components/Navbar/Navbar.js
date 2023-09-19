@@ -19,10 +19,10 @@ function Navbar() {
                 
                 <div className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
                 
-                  <a href="#Home">Home</a>
-                  <a href="#About">About</a>
-                  <a href="#Projects">Projects</a>
-                  <a href="#Contact">Contact</a>
+                  <a className="nav-options" href="#Home">Home</a>
+                  <a className="nav-options" href="#About">About</a>
+                  <a className="nav-options" href="#Projects">Projects</a>
+                  <a className="nav-options" href="#Contact">Contact</a>
                   <a className="Button btn-outline-success btn order-1 order-lg-0 fw-medium dnld " href={resume} download="Jenigorla-Naresh-Resume.pdf">Download CV</a>
                 </div>
 

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Hero.css";
+import naresh from "../../assets/naresh-image.jpeg"
 
 function Herosection() {
   return (
     <div id="Hero" className="container">
       <div className="row ">
         <div className="left col-sm-6">
-          <img src="https://e1.pxfuel.com/desktop-wallpaper/903/679/desktop-wallpaper-97-aesthetic-best-profile-pic-for-instagram-for-boy-instagram-dp-boys.jpg" alt="background"></img>
+          <img src={naresh} alt="background"></img>
         </div>
 
         <div className="right col-sm-6 align-items-center justify-content-center d-flex ">
