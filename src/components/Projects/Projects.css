@@ -25,3 +25,7 @@ img {
     height: auto;
     display: block;
   }
+
+  .Shadow{
+    box-shadow: 5px 5px 10px rgba(0, 128, 0, 0.5);
+  }
