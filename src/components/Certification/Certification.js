@@ -16,11 +16,20 @@ const Certification = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 2000, // Set the speed of carousel transition (1 second = 1000 milliseconds)
+    speed: 1500, // Set the speed of carousel transition (1 second = 1000 milliseconds)
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000, // Set autoplay interval (3 seconds = 3000 milliseconds)
+    autoplaySpeed: 2000, 
+    responsive: [
+      {
+        breakpoint: 1024, // This will apply settings when the device width is less than 768px
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+
   };
 
   return (

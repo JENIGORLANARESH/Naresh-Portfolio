@@ -13,7 +13,7 @@
 .image{
     z-index: 2;
     transition: transform 0.3s;
-    padding: 20px; /* Add padding to create space for the scaled image */
+    padding: 20px; 
     transform-origin: center;
 }
 

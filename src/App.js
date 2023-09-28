@@ -1,5 +1,4 @@
 
-// import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import Herosection from "./components/Herosection/Hero";
 import About from "./components/About/About";
@@ -8,7 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Certification from "./components/Certification/Certification";
-// import slides from "./components/slides/slides";
+import Email from "./components/Email/Email";
+
 
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
       <Skills/>
       <Projects/>
       <Certification/>
-      
       <Contact/>
       <Footer/> 
+      <Email/>
     </div>
   );
 }
