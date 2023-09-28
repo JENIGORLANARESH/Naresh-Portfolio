@@ -1,0 +1,23 @@
+
+.certification-carousel{
+   
+    padding: 20px 10vw;
+    position: relative;
+}
+
+.image img{
+    width: auto;
+    height: 200px;
+}
+
+.image{
+    z-index: 2;
+    transition: transform 0.3s;
+    padding: 20px; /* Add padding to create space for the scaled image */
+    transform-origin: center;
+}
+
+.image:hover{
+    z-index: 3;
+    transform: scale(1.3);
+}

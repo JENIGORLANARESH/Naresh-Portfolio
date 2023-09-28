@@ -57,6 +57,11 @@
        
     }
 
+    .navbar-links.active a {
+        color: white; /* Change the color to white */
+        font-size: 20px;  
+    }
+
     .gif{
         height: 70px;
     }
@@ -85,15 +90,17 @@
     }
 
     .navbar-links.active { 
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        background-color: rgb(0, 193, 55);
+        /* backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); */
         /* background-color: rgb(4, 4, 198); */
         padding-bottom: 10px;
         display: flex;
-        padding: 0;
+        padding: 0px;
         width: auto;
         margin-left: 30vw;
         text-align: center;
+        border-radius: 5px;
     }
 
     .anchor{

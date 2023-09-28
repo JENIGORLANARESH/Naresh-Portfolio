@@ -9,6 +9,7 @@
 
 /* To ensure the image takes 100% width of its container */
 .left img {
+  
   max-width: 100%;
   height: auto;
   display: block;
