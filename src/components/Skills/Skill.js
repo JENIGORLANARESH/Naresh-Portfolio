@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.css";
-
 import images from "../../assets/images/images";
 
 
