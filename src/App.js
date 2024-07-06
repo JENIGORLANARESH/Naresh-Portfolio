@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Certification from "./components/Certification/Certification";
-import Email from "./components/Email/Email";
+// import Email from "./components/Email/Email";
 
 
 
@@ -22,7 +22,7 @@ function App() {
       <Certification/>
       <Contact/>
       <Footer/> 
-      <Email/>
+      {/* <Email/> */}
     </div>
   );
 }

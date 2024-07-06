@@ -37,7 +37,7 @@ function About() {
                     <div className="row">
                       <div className="">
                         <p><b>Name:</b><span>Jenigorla Naresh</span></p>
-                        <p><b>Age:</b> <span>20</span></p>
+                        <p><b>Age:</b> <span>21</span></p>
                         <p><b>Address:</b><span>Vijayawada, INDIA</span></p>
                       </div>
                     </div>

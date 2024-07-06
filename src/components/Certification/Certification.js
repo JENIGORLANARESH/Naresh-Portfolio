@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Certification.css";
 
 import javaBasics from "./../../assets/certificates/javaBasics.png";
+import advancedReact from "./../../assets/certificates/Advanced_React.png";
+import bharatIntern from "./../../assets/certificates/Bharat_Intern.png";
 import design from "./../../assets/certificates/design.png";
 import sqlGreat from "./../../assets/certificates/sqlGreat.png";
 import BootcampUdemy from "./../../assets/certificates/BootcampUdemy.png";
@@ -20,7 +22,7 @@ const Certification = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000, 
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024, // This will apply settings when the device width is less than 768px
@@ -29,7 +31,6 @@ const Certification = () => {
         },
       },
     ],
-
   };
 
   return (
@@ -53,6 +54,13 @@ const Certification = () => {
         </div>
         <div className="image">
           <img src={design} alt="Slide 2" />
+        </div>
+
+        <div className="image">
+          <img src={advancedReact} alt="Slide 2" />
+        </div>
+        <div className="image">
+          <img src={bharatIntern} alt="Slide 2" />
         </div>
 
         {/* Add more slides as needed */}
