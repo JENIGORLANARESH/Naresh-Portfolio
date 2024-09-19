@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import resume from "../../assets/Jenigorla_Naresh_Resume.pdf";
+import resume from "../../assets/JenigorlaNaresh.pdf";
 import matter from "../../assets/matter.gif";
 
 function Navbar() {
